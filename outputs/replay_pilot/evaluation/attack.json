@@ -1,0 +1,22 @@
+{
+  "type": "coordinated_position_displacement",
+  "injection_boundary": "clustered position reports before tracking",
+  "target_instance": "75bbb97a65904d61b345fd500f3c6e2f",
+  "sensors": [
+    "RADAR_BACK_LEFT",
+    "RADAR_BACK_RIGHT"
+  ],
+  "start_s": 4.999283999999999,
+  "end_s": 10.999284,
+  "displacement_m": [
+    4.0,
+    0.0
+  ],
+  "ramp_s": 0.0,
+  "target_selection": "exclusive membership in latest offline annotation box +0.5m; association proxy",
+  "rf_validated": false,
+  "actual_corrupted_report_counts": {
+    "RADAR_BACK_LEFT": 243,
+    "RADAR_BACK_RIGHT": 77
+  }
+}

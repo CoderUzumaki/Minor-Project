@@ -1,0 +1,107 @@
+{
+  "dataset": "nuScenes v1.0-mini",
+  "scenes": 10,
+  "keyframes": 404,
+  "radar_files": 13263,
+  "primary": {
+    "id": "age100_margin0.5_points1",
+    "max_age_ms": 100,
+    "margin_m": 0.5,
+    "min_points": 1,
+    "object_keyframes": 13015,
+    "sensors_0": 8094,
+    "sensors_1": 3525,
+    "sensors_2": 1372,
+    "sensors_3": 24,
+    "sensors_4": 0,
+    "sensors_5": 0,
+    "at_least_2": 1396,
+    "at_least_3": 24
+  },
+  "unique_objects_with_2plus": 254,
+  "unique_objects_with_3plus": 13,
+  "candidate_pair_episodes": 149,
+  "candidate_triple_episodes": 2,
+  "candidate_pair_scenes": 10,
+  "candidate_triple_scenes": 2,
+  "moving_object_keyframes": 5422,
+  "moving_2plus": 475,
+  "moving_3plus": 3,
+  "unknown_velocity_object_keyframes": 16,
+  "parameters": {
+    "max_range_m": 60.0,
+    "minimum_episode_keyframes": 3,
+    "minimum_episode_duration_s": 0.9,
+    "radar_filters": {
+      "invalid_states": [
+        0
+      ],
+      "dynprop_states": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "ambig_states": [
+        3
+      ]
+    },
+    "matching": "BEV oriented box, exclusive points, latest causal sweep per sensor",
+    "target_alignment": "offline annotation velocity backward translation; static fallback if unavailable"
+  },
+  "elapsed_s": 30.95300000000003,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "nuscenes-devkit": "1.2.0",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "matplotlib": "3.9.4",
+    "pyquaternion": "0.9.9"
+  },
+  "metadata_sha256": {
+    "attribute.json": "dc01438363e29188f25785884bb2431a7aa27ba0debbc359cb21cf1f00652210",
+    "calibrated_sensor.json": "13d35eeb08bfbc4d0c9eaede7824ff65efe16f8bf345aa7ba9fd75f9866a8d0f",
+    "category.json": "30f64fb175e5bd7db99892d90f9034481bca491f26600c5c0d1a56106b198dfe",
+    "ego_pose.json": "62817fd8b1633ed7925db46a29ec4c70f77116b866f248f0dc1bac4774459d70",
+    "instance.json": "38bbfcf53fb78469ec2c5b07fdafc9a44e9fbf9ab858d35a007dd8347428a14a",
+    "log.json": "d543b6fd127a6496ab9fa8de5c96a0887e0996e56f7a6c606de6d8b34827df58",
+    "map.json": "6b1d504987d0630e7e32affb7ae0d99fe9b427c757a315ec2f56fb09ebd1bfce",
+    "sample.json": "3c47794e2e6c09af4be7907b83f50750351180008d059899f42a9d405ed68586",
+    "sample_annotation.json": "49703705e98ddea281ca321aae3b7352a8b6495840fe654cf0717c5b7b721080",
+    "sample_data.json": "db18a189bd73648013d3e77ce6f5236d7c5997c0bdbf71166ddd8a6cb5c2c288",
+    "scene.json": "cc4dfeac83ac4f5d3e7fc899f90156891a21fa08bc0f8a1ac0e0a27cc1a0bfa6",
+    "sensor.json": "4d5c96570e2d8b09b88ce4c605e40ee43c4909f97bea5741185f18f92eb491ae",
+    "visibility.json": "87088bf2c78d070e1e215ff108f9c5c0958d124a14cce8f72bfb5d9651295749"
+  },
+  "code_sha256": "8d321018b383dcb2721063c73e58919621a3b60bf4330074da7af979ca7a3a63",
+  "scene_tokens": [
+    "cc8c0bf57f984915a77078b10eb33198",
+    "fcbccedd61424f1b85dcbf8f897f9754",
+    "6f83169d067343658251f72e1dd17dbc",
+    "bebf5f5b2a674631ab5c88fd1aa9e87a",
+    "2fc3753772e241f2ab2cd16a784cc680",
+    "c5224b9b454b4ded9b5d2d2634bbda8a",
+    "325cef682f064c55a255f2625c533b75",
+    "d25718445d89453381c659b9c8734939",
+    "de7d80a1f5fb4c3e82ce8a4f213b450a",
+    "e233467e827140efa4b42d2b4c435855"
+  ],
+  "limitations": [
+    "Offline annotation-assisted coverage proxy, not a detector or exact point identity.",
+    "Mini is a feasibility pilot, not training or security validation.",
+    "Velocity can use future annotations for offline matching only.",
+    "BEV padding can overcount clutter; strict/two-point sensitivities are provided.",
+    "Observed overlap is not a guarantee of independence, visibility, or recoverability.",
+    "Episodes are keyframe observations; continuity between keyframes is not established."
+  ],
+  "archive": {
+    "url": "https://www.nuscenes.org/data/v1.0-mini.tgz",
+    "bytes": 4167696325,
+    "etag": "\"0e429041111a03d43ec0419e1eb02d5f-497\"",
+    "sha256": "943037abbb3b26b3070dc76504a43eb440503b00baf9ac2f1538d9c03fc9298f"
+  }
+}

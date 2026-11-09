@@ -1,0 +1,32 @@
+{
+  "config": "age100_margin0.5_points1",
+  "scene": "scene-0061",
+  "scene_token": "cc8c0bf57f984915a77078b10eb33198",
+  "sample_token": "c923fe08b2ff4e27975d2bf30934383b",
+  "timestamp_us": 1532402929697797,
+  "frame_index": 4,
+  "annotation_token": "7d616ddd17fb4b4ab4aa81ce3403dd94",
+  "instance_token": "e91afa15647c4c4994f19aeb302c7179",
+  "category": "vehicle.truck",
+  "range_m": 4.574110111254665,
+  "speed_mps": 0.143673989205126,
+  "velocity_available": true,
+  "sensor_count": 3,
+  "sensors": [
+    "RADAR_FRONT_LEFT",
+    "RADAR_BACK_LEFT",
+    "RADAR_BACK_RIGHT"
+  ],
+  "points_RADAR_FRONT": 0,
+  "points_RADAR_FRONT_LEFT": 3,
+  "points_RADAR_FRONT_RIGHT": 0,
+  "points_RADAR_BACK_LEFT": 6,
+  "points_RADAR_BACK_RIGHT": 3,
+  "sweep_tokens": {
+    "RADAR_FRONT": "79eccf6c79ee49aaa3f42f7144c4542d",
+    "RADAR_FRONT_LEFT": "4005378264fa47ca981cb332c2ea238d",
+    "RADAR_FRONT_RIGHT": "50770077fdfa4713b1e8f1702f83c55f",
+    "RADAR_BACK_LEFT": "120d9a74f45e418caa78b69af984bfce",
+    "RADAR_BACK_RIGHT": "a5eeac50b14342b9a24e952f8c3d3421"
+  }
+}

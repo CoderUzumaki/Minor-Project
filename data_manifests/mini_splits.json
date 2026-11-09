@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "dataset": "v1.0-mini",
+  "purpose": "pilot only; not a publication benchmark",
+  "grouping": "nuScenes log_token; nearby recordings may still be correlated",
+  "seed": 20261109,
+  "scenes": [
+    {
+      "scene": "scene-0061",
+      "scene_token": "cc8c0bf57f984915a77078b10eb33198",
+      "log_token": "7e25a2c8ea1f41c5b0da1e69ecfa71a2",
+      "split": "validation"
+    },
+    {
+      "scene": "scene-0103",
+      "scene_token": "fcbccedd61424f1b85dcbf8f897f9754",
+      "log_token": "53cf9c55dd8644bea67b9f009fc1ee38",
+      "split": "train"
+    },
+    {
+      "scene": "scene-0553",
+      "scene_token": "6f83169d067343658251f72e1dd17dbc",
+      "log_token": "881dd2f8aaec49b681eb54be5bf3b3e2",
+      "split": "train"
+    },
+    {
+      "scene": "scene-0655",
+      "scene_token": "bebf5f5b2a674631ab5c88fd1aa9e87a",
+      "log_token": "6f7fe59adf984e55a82571ab4f17e4e2",
+      "split": "train"
+    },
+    {
+      "scene": "scene-0757",
+      "scene_token": "2fc3753772e241f2ab2cd16a784cc680",
+      "log_token": "3a43824b84534c98bda1d07548db5817",
+      "split": "train"
+    },
+    {
+      "scene": "scene-0796",
+      "scene_token": "c5224b9b454b4ded9b5d2d2634bbda8a",
+      "log_token": "8ff48ad1df8e4966a2151730c92b7f3c",
+      "split": "test"
+    },
+    {
+      "scene": "scene-0916",
+      "scene_token": "325cef682f064c55a255f2625c533b75",
+      "log_token": "5bd40b613ac740cd9dbacdfbc3d68201",
+      "split": "train"
+    },
+    {
+      "scene": "scene-1077",
+      "scene_token": "d25718445d89453381c659b9c8734939",
+      "log_token": "8fefc430cbfa4c2191978c0df302eb98",
+      "split": "train"
+    },
+    {
+      "scene": "scene-1094",
+      "scene_token": "de7d80a1f5fb4c3e82ce8a4f213b450a",
+      "log_token": "8fefc430cbfa4c2191978c0df302eb98",
+      "split": "train"
+    },
+    {
+      "scene": "scene-1100",
+      "scene_token": "e233467e827140efa4b42d2b4c435855",
+      "log_token": "8fefc430cbfa4c2191978c0df302eb98",
+      "split": "train"
+    }
+  ]
+}

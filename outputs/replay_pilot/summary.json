@@ -1,0 +1,102 @@
+{
+  "clean_baseline": {
+    "mean_gospa": 56.51489243272839,
+    "matched_position_rmse_m": 1.8875847393679592,
+    "matched_object_frames": 423,
+    "false_track_frames": 2351,
+    "missed_target_frames": 570,
+    "detection": {
+      "tp": 0,
+      "fp": 3084,
+      "fn": 0,
+      "tn": 13821,
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "attacked_reports": 0,
+      "event_detected": null,
+      "event_delay_s": null,
+      "false_alert_reports_per_minute": 9298.263977332417
+    },
+    "timing": {
+      "event_count": 1348,
+      "local_update_ms_p50": 5.438599999934013,
+      "local_update_ms_p95": 14.697149999960837
+    }
+  },
+  "clean_protected": {
+    "mean_gospa": 54.082060378336934,
+    "matched_position_rmse_m": 1.8527852724901486,
+    "matched_object_frames": 386,
+    "false_track_frames": 2104,
+    "missed_target_frames": 607,
+    "detection": {
+      "tp": 0,
+      "fp": 1866,
+      "fn": 0,
+      "tn": 15039,
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "attacked_reports": 0,
+      "event_detected": null,
+      "event_delay_s": null,
+      "false_alert_reports_per_minute": 5625.992406518252
+    },
+    "timing": {
+      "event_count": 1348,
+      "local_update_ms_p50": 5.118400000014844,
+      "local_update_ms_p95": 11.250780000045761
+    }
+  },
+  "attacked_baseline": {
+    "mean_gospa": 56.5521090501152,
+    "matched_position_rmse_m": 1.9811605354248205,
+    "matched_object_frames": 423,
+    "false_track_frames": 2351,
+    "missed_target_frames": 570,
+    "detection": {
+      "tp": 4,
+      "fp": 3088,
+      "fn": 316,
+      "tn": 13497,
+      "precision": 0.00129366106080207,
+      "recall": 0.0125,
+      "f1": 0.0023446658851113715,
+      "attacked_reports": 320,
+      "event_detected": true,
+      "event_delay_s": 3.776268999999999,
+      "false_alert_reports_per_minute": 9310.323982491083
+    },
+    "timing": {
+      "event_count": 1348,
+      "local_update_ms_p50": 5.431599999951686,
+      "local_update_ms_p95": 15.585039999962182
+    }
+  },
+  "attacked_protected": {
+    "mean_gospa": 54.09931243024808,
+    "matched_position_rmse_m": 1.9433560679731148,
+    "matched_object_frames": 386,
+    "false_track_frames": 2104,
+    "missed_target_frames": 607,
+    "detection": {
+      "tp": 41,
+      "fp": 2007,
+      "fn": 279,
+      "tn": 14578,
+      "precision": 0.02001953125,
+      "recall": 0.128125,
+      "f1": 0.03462837837837838,
+      "attacked_reports": 320,
+      "event_detected": true,
+      "event_delay_s": 0.7248089999999996,
+      "false_alert_reports_per_minute": 6051.107588361271
+    },
+    "timing": {
+      "event_count": 1348,
+      "local_update_ms_p50": 5.169200000068486,
+      "local_update_ms_p95": 11.645919999989463
+    }
+  }
+}

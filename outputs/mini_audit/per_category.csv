@@ -1,0 +1,14 @@
+category,object_keyframes,observed,at_least_2,at_least_3,unique_instances_2plus
+human.pedestrian.adult,4481,715,94,0,40
+human.pedestrian.child,46,1,0,0,0
+human.pedestrian.construction_worker,192,51,9,0,1
+human.pedestrian.personal_mobility,25,8,0,0,0
+human.pedestrian.police_officer,11,3,0,0,0
+vehicle.bicycle,236,46,3,0,3
+vehicle.bus.bendy,44,40,17,1,2
+vehicle.bus.rigid,229,173,53,2,7
+vehicle.car,6532,3210,988,3,171
+vehicle.construction,154,124,38,2,5
+vehicle.motorcycle,454,145,17,0,6
+vehicle.trailer,53,52,38,0,2
+vehicle.truck,558,353,139,16,17

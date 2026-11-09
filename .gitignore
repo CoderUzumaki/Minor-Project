@@ -1,0 +1,14 @@
+.venv/
+.uv-cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/
+downloads/
+dist/
+.ipynb_checkpoints/
+outputs/test_tmp/
+research_work/
+Research Papers/
+HANDOFF.md
+Research_Plan.md

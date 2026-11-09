@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "check": "isolated annotation-free inference reproduces frames and decisions",
+  "compared_fields": [
+    "frames",
+    "decisions"
+  ],
+  "excluded_fields": [
+    "timing"
+  ],
+  "input_sha256": "225dbf0fe4afc884d1799b5ca70a493b2eb85c0d1c3a812ecb62e9b4e165fc70",
+  "frame_count": 41,
+  "decision_count": 16905
+}
